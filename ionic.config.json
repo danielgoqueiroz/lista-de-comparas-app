@@ -1,0 +1,7 @@
+{
+  "name": "lista-de-compras-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
