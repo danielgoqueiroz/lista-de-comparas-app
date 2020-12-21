@@ -1,6 +1,9 @@
 # lista-de-comparas-app
 Aplicativo de lista de compras em ionic + vue
 
+# Doc Ionic
+https://ionicframework.com/docs/vue/overview
+
 # TODO
 Listar itens
 
@@ -16,3 +19,5 @@ Lista de itens
 Outros
   |- Reordenar itens
   |- Categorias, ente itens
+
+
