@@ -2,9 +2,9 @@
   <ion-page>
     <ion-tabs>
       <ion-tab-bar slot="bottom">
-        <ion-tab-button tab="tab1" href="/listas">
+        <ion-tab-button tab="listas" href="/listas">
           <ion-icon :icon="triangle" />
-          <ion-label>Tab 1</ion-label>
+          <ion-label>Listas</ion-label>
         </ion-tab-button>
       </ion-tab-bar>
     </ion-tabs>
@@ -16,7 +16,12 @@ import { IonTabBar, IonTabButton, IonTabs, IonLabel, IonIcon, IonPage } from '@i
 import { ellipse, square, triangle } from 'ionicons/icons';
 
 export default {
-  name: 'Tabs',
+  name: 'Listas',
+  data() {
+    return {
+      listas: []
+    }
+  },
   components: { IonLabel, IonTabs, IonTabBar, IonTabButton, IonIcon, IonPage },
   setup() {
     return {

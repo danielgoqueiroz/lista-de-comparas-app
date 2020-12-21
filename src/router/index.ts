@@ -8,7 +8,7 @@ const routes: Array<RouteRecordRaw> = [
     redirect: '/listas'
   },
   {
-    path: '/tabs/',
+    path: '/',
     component: Tabs,
     children: [
       {
