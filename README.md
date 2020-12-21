@@ -1,13 +1,21 @@
 # lista-de-comparas-app
-Aplicativo de lista de compras em ionic + vue
+Aplicativo de lista de compras em ionic + vue tem como objetivo estudar a construção de aplicativos Android e iOS. 
 
-# Doc Ionic
-https://ionicframework.com/docs/vue/overview
+
+Doc Inic - https://ionicframework.com/
+Doc Vue - https://vuejs.org/
 
 # TODO
-Listar itens
+Listar Litas
 
 ## Telas
+
+Lista de Listas de compras
+  |- Listas de compras salvas
+  |- Adicionar Lista
+  |- Botõe de adicionar, editar, duplicar lista e excluir lista
+  |- Ao clicar em lista a mesma deve ser aberta em nova tela
+
 
 Lista de itens
   |- Descrição: Caixa de texto
